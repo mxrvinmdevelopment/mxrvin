@@ -55,11 +55,36 @@ I'm **Marvin**, also known as **mxrvin** a passionate backend developer focused 
 
 ### 🧑‍💻 Code Sample
 
-```javascript
+```cpp
+#include <iostream>
+#include <vector>
+#include <string>
+
 class Developer {
-  constructor() {
-    this.name = "Marvin";
-    this.role = "Backend Dev";
-    this.skills = ["Python", "JS", "C#", "C++"];
-  }
+public:
+    std::string name;
+    std::string role;
+    std::vector<std::string> skills;
+
+    Developer() {
+        name = "Marvin";
+        role = "Backend Dev";
+        skills = {"Python", "C#", "C++"};
+    }
+
+    void showInfo() {
+        std::cout << "Name: " << name << std::endl;
+        std::cout << "Role: " << role << std::endl;
+        std::cout << "Skills: ";
+        for (const auto& skill : skills) {
+            std::cout << skill << " ";
+        }
+        std::cout << std::endl;
+    }
+};
+
+int main() {
+    Developer marvin;
+    marvin.showInfo();
+    return 0;
 }
