@@ -37,7 +37,7 @@ I'm **Marvin**, also known as **mxrvin** a passionate backend developer focused 
 ### 🧩 Projects & Code
 🔗 Check out my work:
 - 💡 [Portfolio Website](https://soon.com)
-- 🧰 [GitHub Repositories]([https://github.com/mxrvin?tab=repositories](https://github.com/mxrvinmdevelopment?tab=repositories))
+- 🧰 [GitHub Repositories](https://github.com/mxrvin?tab=repositories](https://github.com/mxrvinmdevelopment?tab=repositories))
 
 ---
 
